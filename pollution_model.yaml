@@ -1,0 +1,28 @@
+features:
+- 'Unnamed: 0'
+- State Code
+- County Code
+- Site Num
+- State
+- County
+- City
+- NO2 1st Max Value
+- NO2 1st Max Hour
+- NO2 AQI
+- O3 Mean
+- O3 1st Max Value
+- O3 1st Max Hour
+- O3 AQI
+- SO2 Mean
+- SO2 1st Max Value
+- SO2 1st Max Hour
+- SO2 AQI
+- CO Mean
+- CO 1st Max Value
+- CO 1st Max Hour
+- CO AQI
+- Year
+- Month
+- Day
+model: RandomForestRegressor
+target: NO2 Mean
